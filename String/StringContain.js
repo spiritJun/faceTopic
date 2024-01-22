@@ -2,10 +2,10 @@
  * @Description: 一个字符串是否是另一个字符串的子集
  * @Author: Qinaj
  * @Date: 2024-01-13 22:36:03
- * @LastEditTime: 2024-01-13 23:31:32
+ * @LastEditTime: 2024-01-22 21:47:35
  * @LastEditors: Qinaj
  */
-function stringContains(orgStr = '', str = ''){
+function stringAllContains(orgStr = '', str = ''){
    if(!str?.length) return false
    let i = 0
    let arr = orgStr.split('')
